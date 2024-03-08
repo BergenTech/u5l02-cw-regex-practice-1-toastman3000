@@ -1,19 +1,19 @@
 import re
 
+'''
 # 1. Match the word "cat" in a string.
-pattern = r""
+pattern = r"cat"
 text = "The cat sat on the mat."
 match = re.search(pattern, text)
 print(match.group() if match else "No match")
 
 '''
-
 # 2. Match "cat" regardless of its case.
 pattern = r""
 text = "The Cat sat on the mat."
 match = re.search(pattern, text)
 print(match.group() if match else "No match")
-
+'''
 # 3. Match any three-letter word ending with 'at'.
 pattern = r""
 text = "The cat sat on the mat."
